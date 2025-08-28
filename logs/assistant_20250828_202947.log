@@ -1,0 +1,20 @@
+2025-08-28 20:29:47,860 - ConversationalAssistant - INFO - Logging initialized. Log file: logs/assistant_20250828_202947.log
+2025-08-28 20:29:48,790 - comtypes.client._code_cache - INFO - Imported existing <module 'comtypes.gen' from 'F:\\work\\cnnnxt\\conversational_assistant\\env\\lib\\site-packages\\comtypes\\gen\\__init__.py'>
+2025-08-28 20:29:48,790 - comtypes.client._code_cache - INFO - Using writeable comtypes cache directory: 'F:\work\cnnnxt\conversational_assistant\env\lib\site-packages\comtypes\gen'
+2025-08-28 20:29:49,259 - ConversationalAssistant.VoiceHandler - INFO - VoiceHandler initialized
+2025-08-28 20:29:49,259 - ConversationalAssistant - INFO - Voice handler initialized successfully
+2025-08-28 20:29:49,260 - ConversationalAssistant - INFO - Starting Conversational Assistant application
+2025-08-28 20:29:49,260 - ConversationalAssistant - INFO - Voice features are enabled
+2025-08-28 20:29:52,105 - ConversationalAssistant - INFO - Available audio devices: 55
+2025-08-28 20:29:52,105 - ConversationalAssistant - INFO - Creating Gradio interface
+2025-08-28 20:29:52,314 - ConversationalAssistant - INFO - Gradio interface created successfully
+2025-08-28 20:29:52,739 - httpx - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2025-08-28 20:29:52,988 - httpx - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2025-08-28 20:29:53,235 - httpx - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2025-08-28 20:30:14,780 - ConversationalAssistant - INFO - User message received: hey
+2025-08-28 20:30:14,781 - ConversationalAssistant.DialogManager - INFO - Processing message: hey
+2025-08-28 20:30:14,781 - ConversationalAssistant.IntentClassifier - INFO - Classifying intent for: hey
+2025-08-28 20:30:14,781 - ConversationalAssistant.IntentClassifier - INFO - Intent classified as: chitchat
+2025-08-28 20:30:14,781 - ConversationalAssistant.DialogManager - INFO - Handling chitchat
+2025-08-28 20:30:14,781 - ConversationalAssistant - INFO - Bot response: Hello! I can help you schedule meetings or send emails. What would you like to do?
+2025-08-28 20:30:14,782 - ConversationalAssistant.VoiceHandler - INFO - Added to TTS queue: Hello! I can help you schedule meetings or send emails. What would you like to do?
